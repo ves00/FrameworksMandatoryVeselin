@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+  
+  font-style: normal;
+  font-size: 50px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.App-header {
+  background-color:blue;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #FF9900;
+  line-height: 1,6;
+  padding: 1em;
+}
+
+.container {
+  width: 65%;
+  height: 45%;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+nav-link{
+  color: green
+}
